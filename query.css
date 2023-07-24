@@ -1,0 +1,85 @@
+@media  (max-width:850px) {
+    nav{
+        width: 100%;
+        padding-top: 5px;
+    }
+    .nav-header{
+        display: flex;
+        padding: 0px 0px;
+    }
+    .menu .active::before{
+        display: none;
+    }
+    .first-header .search input{
+       display: none;
+    }
+    .first-header {
+        display: flex;
+       justify-content: flex-start;
+    }
+    .menu{
+        gap: 3rem;
+    }
+    
+    .menu li a{
+       display: none;
+    }
+    .navbar-para{
+        display: none;
+    }
+    .first-header .fa-magnifying-glass{
+        color: black;
+        font-size: 20px;
+        cursor: pointer;
+        position: fixed;
+        left: 13%;
+        top: 1%;
+    }
+    .business-slideBar{
+    position: absolute;
+    /* bottom: -7%; */
+    }
+    .menu li{
+        padding: 5px 0;
+        color: black;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .right-hero{
+        display: none;
+    }
+    .center-item-hero{
+        width: 450px;
+    }
+    .sort-by{
+        width: 450px;
+    }
+    .center-item-hero{
+    top: 15%;
+    left: 35%;
+    }
+    .post-img-main img {
+        width: 430px;
+        }
+        .recommended-info-content{
+            font-size: 13px;
+        }
+        .recommended-info-content .break{
+           display: none;
+        }
+        .recommended-btn{
+            padding: 0;
+            display: inline-flex;
+            padding: 5px;
+        }
+        .recommended-btn:hover{
+            padding: 5px;
+        }
+        .post-main .postDropdown-icons {
+            top: 51%;
+    left: 35%;
+    position: absolute;
+    cursor: pointer;
+        }
+       
+}
